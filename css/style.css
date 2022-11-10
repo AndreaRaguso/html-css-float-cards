@@ -20,15 +20,55 @@ h1{
 }
 
 body{
-    max-width: 1000px;
+    width: 60%;
     margin: 0 auto;
     padding: 80px 0;
 }
 
 .text{
-    margin-top: 50px;
+    margin: 50px 0;
     font-size: 20px;
 }
 
 /* Corpo pagina */
 
+
+.subject{
+    color: white;
+    height: 100%;
+    width: calc(100% / 3);
+    float: left;
+    padding-bottom: 30px;
+}
+
+.subject::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.subject img{
+    height: 100px;
+    float: left;
+
+}
+
+.info{
+    margin: auto;
+    background-color: #0f0e17;
+    float: left;
+    height: 100px;
+    padding-left: 10px;
+    padding-right: 20px ;
+}
+
+.center{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.info a{
+    color: #038bc9;
+    text-decoration: none;
+}
