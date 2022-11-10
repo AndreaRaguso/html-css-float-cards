@@ -29,8 +29,7 @@ main{
 .text{
     margin: 50px 0;
     font-size: 20px;
-    text-align: justify;
-    text-align-last: center;
+    text-align: center;
 }
 
 /* Corpo pagina */
