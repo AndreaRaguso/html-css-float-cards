@@ -29,6 +29,8 @@ main{
 .text{
     margin: 50px 0;
     font-size: 20px;
+    text-align: justify;
+    text-align-last: center;
 }
 
 /* Corpo pagina */
@@ -37,9 +39,10 @@ main{
 .subject{
     color: white;
     height: 100%;
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 20px);
     float: left;
     padding-bottom: 30px;
+    margin: 10px;
 }
 
 .subject::after{
@@ -48,20 +51,26 @@ main{
     clear: both;
 }
 
+main::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .subject img{
     height: 100px;
     float: left;
-
+    box-shadow: 0px 0px 18px 1px #000000;
 }
 
 .info{
-    margin: auto;
     background-color: #0f0e17;
     float: left;
     height: 100px;
     padding-left: 10px;
     padding-right: 20px;
-    width: 240px;
+    width: calc(100% - 100px);
+    box-shadow: 0px 0px 18px 1px #000000;
 }
 
 .info a{
