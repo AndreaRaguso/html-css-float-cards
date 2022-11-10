@@ -17,12 +17,13 @@ h1{
     color: #e53170;
     text-align: center;
     font-family: 'Fredoka One', cursive;
+    width: 100%;
 }
 
-body{
-    width: 60%;
+main{
     margin: 0 auto;
     padding: 80px 0;
+    width: 1100px;
 }
 
 .text{
@@ -59,13 +60,8 @@ body{
     float: left;
     height: 100px;
     padding-left: 10px;
-    padding-right: 20px ;
-}
-
-.center{
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    padding-right: 20px;
+    width: 240px;
 }
 
 .info a{
