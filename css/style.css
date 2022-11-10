@@ -70,9 +70,16 @@ main::after{
     padding-right: 20px;
     width: calc(100% - 100px);
     box-shadow: 0px 0px 18px 1px #000000;
+    display: inline;
 }
 
 .info a{
     color: #038bc9;
     text-decoration: none;
+}
+
+.center{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
